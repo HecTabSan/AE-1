@@ -1,0 +1,22 @@
+.dobleDiv{
+    display: flex;
+}
+
+.derechaDiv{
+    margin-left: 5%;
+}
+
+#tipoInformacionDiv{
+    margin-left: 13.5%;
+}
+
+#nombreDiv{
+    margin-left: 4.1%;
+}
+
+#formulario{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+

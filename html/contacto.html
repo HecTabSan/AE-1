@@ -28,10 +28,9 @@
     <nav id="menu">
         <ul>
             <li class="menuPrincipal menu-item" id="home"><a href="../home.html"> Home </a>
-                <!-- como estamos en pag principal el botón home no redirige a ningún sitio. Por eso se usa "#" -->
                 <ul class="submenu">
                     <li><a href="./quienes_somos.html"> Quiénes somos </a></li>
-                    <li><a href="./areas_de_actuacion.html">Áreas de actuación</a></li> <!-- como estamos en pag Áreas de acutación el botón no redirige a ningún sitio. Por eso se usa "#" -->
+                    <li><a href="./areas_de_actuacion.html">Áreas de actuación</a></li>
                     <li><a href="#"> Contacto </a></li>
                     <li><a href="#"> Noticias </a></li>
                     <li><a href="#"> Publicaciones </a></li>
@@ -40,6 +39,91 @@
             </li>
         </ul>
     </nav>
+
+    <form action="procesarPeticion.jsp" method="get" id="formulario">
+        <fieldset>
+            <legend>Contacto:</legend>
+            <div class="dobleDiv">
+                <div id="emailDiv">
+                    <label for="email">Introduce tu email:</label>
+                    <input type="email" id="email" name="email" />
+                </div>
+                <div class="derechaDiv" id="nombreDiv">
+                    <label for="nombre">Nombre: </label>
+                    <input id="nombre" type="text" name="nombre" />
+                </div>
+            </div><br><br>
+            <div class="dobleDiv">
+                <div id="tipoActividadDiv">
+                    <label for="tipo_actividad">Tipo actividad: </label><br>
+                    <input type="radio" name="tipo_actividad" value="S" checked />Senderismo<br>
+                    <input type="radio" name="tipo_actividad" value="E" />Escalada<br>
+                    <input type="radio" name="tipo_actividad" value="PI" />Piragüismo<br>
+                    <input type="radio" name="tipo_actividad" value="R" />Rafting<br>
+                </div>
+                <br>
+
+                <div class="derechaDiv" id="tipoInformacionDiv">
+                    <label for="tipo_informacion">Tipo información: </label>
+                    <br>
+                    <input type="checkbox" name="tipo_informacion" value="PR" checked />Precio<br>
+                    <input type="checkbox" name="tipo_informacion" value="H" checked />Horarios<br>
+                    <input type="checkbox" name="tipo_informacion" value="M" />Material<br>
+                    <input type="checkbox" name="tipo_informacion" value="O" />Otros<br>
+                </div>
+            </div>
+            <br>
+            <div class="dobleDiv">
+                <div id="mesActividadDiv">
+                    <label for="mes_actividad">Mes de la actividad: </label>
+                    <select name="mes_actividad">
+                        <option value="JAN" selected>ENERO</option>
+                        <option value="FEB">FEBRERO</option>
+                        <option value="MAR">MARZO</option>
+                        <option value="APR">ABRIL</option>
+                        <option value="MAY">MAYO</option>
+                        <option value="JUN">JUNIO</option>
+                        <option value="JUL">JULIO</option>
+                        <option value="AUG">AGOSTO</option>
+                        <option value="SEP">SEPTIEMBRE</option>
+                        <option value="OCT">OCTUBRE</option>
+                        <option value="NOV">NOVIEMBRE</option>
+                        <option value="DEC">DICIEMBRE</option>
+                    </select>
+                </div>
+                <br>
+
+                <div class="derechaDiv">
+                    <label for="dia_semana_actividad">Día de la semana de la actividad: </label>
+                    <select name="dia_semana_actividad">
+                        <option value="MON">Lunes</option>
+                        <option value="TUE">Martes</option>
+                        <option value="WED">Miércoles</option>
+                        <option value="THU">Jueves</option>
+                        <option value="FRI">Viernes</option>
+                        <option value="SAT">Sábado</option>
+                        <option value="SUN">Domingo</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <div id="comentariosDiv">
+                <label for="comentarios">Comentarios: </label>
+                <br>
+                <textarea style="resize: none;" rows="5" cols="80" name="comentarios"></textarea>
+            </div><br>
+            <label for="terminos">¿Acepta los terminos de uso? </label>
+            <br>
+
+            <label>He leido y acepto los terminos de uso</label> <input type="checkbox" name="terminos" value="Y" />
+            <br>
+            <br>
+            <input type="submit" value="Enviar datos" />
+            <input type="reset" value="Limpiar formulario" />
+            <button>Boton normal</button>
+        </fieldset>
+    </form>
 
     <footer id="pie">©2022 Tienda Montaña</footer>
 </body>
