@@ -1,0 +1,14 @@
+#cabecera{
+    background-color: #fff4e0; /*se usa este background para disimular el fondo del logo de la tienda*/
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+#imgLogo{
+    width: 5%;
+    margin-left: 33%;
+}
+
+#titulo{
+    float: right;
+    margin-right: 45%;
+}

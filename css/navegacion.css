@@ -1,0 +1,46 @@
+#menu {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    color: white;
+}
+
+#menu a {
+    color: white;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menuPrincipal {
+    float: left;
+}
+
+#menu li a {
+    display: block;    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #111;
+}
+
+.menu-item {
+    padding: 0.7%;
+    cursor: pointer;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    padding: 0.7%;
+    position: absolute;
+    display: none;
+}
