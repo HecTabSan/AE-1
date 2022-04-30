@@ -3,8 +3,11 @@ html {
     position: relative;
 }
 
-#cabecera {
+body{
     background-color: #fff4e0;
+}
+
+#cabecera {
     /*se usa este background para disimular el fondo del logo de la tienda*/
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
     width: 100%;
