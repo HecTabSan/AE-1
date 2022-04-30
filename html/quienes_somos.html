@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda montaña</title>
-    <link rel="stylesheet" href="./css/cabecera.css">
-    <link rel="stylesheet" href="./css/navegacion.css">
-    <link rel="stylesheet" href="./css/pie.css">
-    <link rel="stylesheet" href="./css/quienes_somos.css">    
+    <link rel="stylesheet" href="../css/cabecera.css">
+    <link rel="stylesheet" href="../css/navegacion.css">
+    <link rel="stylesheet" href="../css/pie.css">
+    <link rel="stylesheet" href="../css/quienes_somos.css">
 </head>
-<body>
 
+<body>
+    <header id="cabecera">
+        <div class="container">
+            <div class="image">
+                <img id="imgLogo" src="../img/logo.png"></img>
+            </div>
+            <div class="text">
+                <h1 id="titulo">TODO MONTAÑA</h1>
+            </div>
+        </div>
+
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li class="menuPrincipal menu-item" id="home"><a href="../home.html"> Home </a>
+              
+                <ul class="submenu">
+                    <li><a href="#"> Quiénes somos </a></li>
+                    <li><a href="./areas_de_actuacion.html">Áreas de actuación</a></li>  
+                    <li><a href="./contacto.html"> Contacto </a></li>
+                    <li><a href="#"> Noticias </a></li>
+                    <li><a href="#"> Publicaciones </a></li>
+                    <li><a href="#"> Localización </a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <footer id="pie">©2022 Tienda Montaña</footer>
 </body>
+
 </html>
