@@ -14,13 +14,21 @@
 
 <body>
     <header id="cabecera">
-        <img id="imgLogo" src="./img/logo.png"></img>
-        <h1 id="titulo">TIENDA MONTAÑA</h1>
+        <div class="container">
+            <div class="image">
+                <img id="imgLogo" src="./img/logo.png"></img>
+            </div>
+            <div class="text">
+                <h1 id="titulo">TODO MONTAÑA</h1>
+            </div>
+        </div>
+
     </header>
 
     <nav id="menu">
         <ul>
-            <li class="menuPrincipal menu-item" id="home"><a href="#"> Home </a>   <!-- como estamos en pag principal el botón home no redirige a ningún sitio. Por eso se usa "#" -->
+            <li class="menuPrincipal menu-item" id="home"><a href="#"> Home </a>
+                <!-- como estamos en pag principal el botón home no redirige a ningún sitio. Por eso se usa "#" -->
                 <ul class="submenu">
                     <li><a href="./html/quienes_somos.html"> Quiénes somos </a></li>
                     <li><a href="./html/areas_de_actuacion.html">Áreas de actuación</a></li>
@@ -32,26 +40,65 @@
             </li>
         </ul>
     </nav>
-
-    <aside id="sidenav">
-        
-    </aside>
-    <p></p>
-
-    <section id="seccionHome">
-
+    <section id="seccion">
+        <header>
+            <h2>César Pérez de Tudela: “El alpinismo es la vida llevada al extremo de la cima”</h2>
+        </header>
         <article>
-            <header>
-                <h4>Nombre artículo</h4>
-            </header>
-            meter imagen
-            <footer>
-                <p>Descripción artículo</p>
-            </footer>
-        </article>
+            <p>Las actividades difíciles, y aún extremas, son las que más enseñan a los hombres a saber cómo y quiénes
+                son,
+                pues se les descubren muchos secretos que para la mayoría de los humanos permanecen ocultos. Por el
+                contrario,
+                está la posibilidad cercana de perderlo todo, viviendo el desasosiego ante la posibilidad de la propia
+                muerte.
+                César Pérez de Tudela reflexiona sobre estas cuestiones en su último libro, ¿Era necesario morir?, que
+                publica <strong>Ediciones Desnivel</strong>.</p>
+            <p>Ayer, en el programa de radio <strong>Al Primer Toque</strong> (Onda Cero), Darío Rodríguez y Héctor Fernandez hablaron
+                con él. Puedes escuchar aquí la conversación.</p><br>
 
+            <h3>¿Por qué este título para el libro?</h3>
+            <p>Si analizamos el <strong>alpinismo expedicionario</strong> y vemos los resultados, muere mucha gente. A veces, es
+                necesario morir para tratar de conseguir la <strong>incógnita de la cima</strong>.
+                El misterio de la cima te pone en riesgo de morir. El título nos sugiere que morir es más fácil de lo
+                que creemos.</p><br>
+
+            <h3>Has vivido muchas desapariciones de gente cercana. ¿Cuál es la que te ha marcado más?</h3>
+
+            <p>Recuerdo la muerte de <strong>Jesús Miranda</strong> en el Tozal del Mallo. Era un chico cargado de ilusiones. Le cayó una
+                piedra que le cortó la arteria femoral y murió. También me marcó la muerte de <strong>Fernando Martínez</strong>, la de
+                mi mujer <strong>Elena de Pablo</strong> en el Hindu Kush…</p>
+            <br>
+            <h3>Tu vida está muy marcada por la tragedia.</h3>
+            <p>Sí, por eso sé que la tragedia está próxima. La vida es un drama, como dice Ortega y Gasset, así que yo
+                siempre procuro llenarla de la máxima alegría. Pero sí, es un drama la vida, el nacimiento, la muerte,
+                es un drama la ancianidad. El <strong>alpinismo</strong> es la vida llevada al extremo de la cima, y en el camino hacia
+                esta, que es el más duro, vas sorteando la tragedia.</p><br>
+
+            <h3>¿Qué es el alpinismo?</h3>
+            <p>La experiencia de estar muriendo y viviendo es muy propia del <strong>alpinismo</strong>. El título del libro me pareció
+                que resumía la verdad de tanto drama. Pretendo buscar una explicación, es la búsqueda de esa pasión que
+                no tiene explicación. Si le damos un sentido puramente deportivo se puede decir que uno va a la montaña
+                por hacer ejercicio o por la belleza, pero la realidad es que no sabemos por qué vamos. Es un idealismo,
+                lo contrario al materialismo, y por eso no tiene explicación.</p>
+
+        </article>
+        <footer>
+            <p>Artículo de <a
+                    href="https://www.desnivel.com/cultura/cesar-perez-de-tudela-el-alpinismo-es-la-vida-llevada-al-extremo-de-la-cima/">
+                    Desnivel.com </a></p>
+        </footer>
     </section>
 
+    <aside id="sidenav">
+        <nav>
+            <h1>Sitios relacionados</h1>
+            <ul>
+                <li><a href="http://science.nasa.gov/astrophysics/">Astrofísica - NASA Science</a></li>
+                <li><a href="http://www-astro.physics.ox.ac.uk/">Astrofísica | Universidad de Oxford</a></li>
+                <li><a href="http://aston.blogejemplo.com/">El blog de astrofísica de Aston</a></li>
+            </ul>
+        </nav>
+    </aside>
 
     <footer id="pie">©2022 Tienda Montaña</footer>
 
