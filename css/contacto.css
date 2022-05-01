@@ -1,22 +1,180 @@
-.dobleDiv{
-    display: flex;
+/**********************************************************/
+/*************************DESKTOP**************************/
+/**********************************************************/
+/**********************************************************/
+@media screen 
+  and (min-device-width: 1300px)
+  { 
+    .dobleDiv{
+        display: flex;
+    }
+    
+    .derechaDiv{
+        margin-left: 5%;
+    }
+    
+    #tipoInformacionDiv{
+        margin-left: 13.5%;
+    }
+    
+    #nombreDiv{
+        margin-left: 4.1%;
+    }
+    
+    #formulario{
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
 }
 
-.derechaDiv{
-    margin-left: 5%;
+/**********************************************************/
+/*************************DESKTOP**************************/
+/*******************Ancho fijo de resoluciones*************/
+/**********************************************************/
+@media screen 
+  and (min-device-width: 900px) 
+  and (max-device-width: 1300px) 
+  { 
+    .dobleDiv{
+        display: flex;
+    }
+    
+    .derechaDiv{
+        margin-left: 5%;
+    }
+    
+    #tipoInformacionDiv{
+        margin-left: 13.5%;
+    }
+    
+    #nombreDiv{
+        margin-left: 4.1%;
+    }
+    
+    #formulario{
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
 }
 
-#tipoInformacionDiv{
-    margin-left: 13.5%;
+
+/**********************************************************/
+/*********************IPHONE*******************************/
+/********************Portrait******************************/
+/**********************************************************/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (orientation: portrait) { 
+    .dobleDiv{
+        display: flex;
+    }
+    
+    .derechaDiv{
+        margin-left: 5%;
+    }
+    
+    #tipoInformacionDiv{
+        margin-left: 13.5%;
+    }
+    
+    #nombreDiv{
+        margin-left: 4.1%;
+    }
+    
+    #formulario{
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
 }
 
-#nombreDiv{
-    margin-left: 4.1%;
+/**********************************************************/
+/*********************IPHONE*******************************/
+/********************Landscape*****************************/
+/**********************************************************/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (orientation: landscape) { 
+    .dobleDiv{
+        display: flex;
+    }
+    
+    .derechaDiv{
+        margin-left: 5%;
+    }
+    
+    #tipoInformacionDiv{
+        margin-left: 13.5%;
+    }
+    
+    #nombreDiv{
+        margin-left: 4.1%;
+    }
+    
+    #formulario{
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
 }
 
-#formulario{
-    margin-top: 1%;
-    margin-bottom: 2%;
+/**********************************************************/
+/***********************IPAD*******************************/
+/**********************Portrait****************************/
+/**********************************************************/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+    .dobleDiv{
+        display: flex;
+    }
+    
+    .derechaDiv{
+        margin-left: 5%;
+    }
+    
+    #tipoInformacionDiv{
+        margin-left: 13.5%;
+    }
+    
+    #nombreDiv{
+        margin-left: 4.1%;
+    }
+    
+    #formulario{
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
 }
 
-
+/**********************************************************/
+/***********************IPAD*******************************/
+/**********************Landscape***************************/
+/**********************************************************/
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) {
+    .dobleDiv{
+        display: flex;
+    }
+    
+    .derechaDiv{
+        margin-left: 5%;
+    }
+    
+    #tipoInformacionDiv{
+        margin-left: 13.5%;
+    }
+    
+    #nombreDiv{
+        margin-left: 4.1%;
+    }
+    
+    #formulario{
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+}

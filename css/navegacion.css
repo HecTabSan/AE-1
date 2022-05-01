@@ -1,47 +1,323 @@
-#menu {
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    color: white;
-    width: 100%;
-    background-color: #333;
+/**********************************************************/
+/*************************DESKTOP**************************/
+/**********************************************************/
+/**********************************************************/
+@media screen and (min-device-width: 1300px){
+    #menu {
+        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+        color: white;
+        width: 100%;
+        background-color: #333;
+    }
+
+    #menu a {
+        color: white;
+    }
+
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .menuPrincipal {
+        float: left;
+    }
+
+    #menu li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #menu li a:hover {
+        background-color: #111;
+    }
+
+    .menu-item {
+        padding: 0.7%;
+        cursor: pointer;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu {
+        position: absolute;
+        display: none;
+    }
 }
 
-#menu a {
-    color: white;
+/**********************************************************/
+/*************************DESKTOP**************************/
+/*******************Ancho fijo de resoluciones*************/
+/**********************************************************/
+@media screen and (min-device-width: 900px) and (max-device-width: 1300px){
+    #menu {
+        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+        color: white;
+        width: 100%;
+        background-color: #333;
+    }
+
+    #menu a {
+        color: white;
+    }
+
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .menuPrincipal {
+        float: left;
+    }
+
+    #menu li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #menu li a:hover {
+        background-color: #111;
+    }
+
+    .menu-item {
+        padding: 0.7%;
+        cursor: pointer;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu {
+        position: absolute;
+        display: none;
+    }
 }
 
-#menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+/**********************************************************/
+/*********************IPHONE*******************************/
+/********************Portrait******************************/
+/**********************************************************/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    #menu {
+        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+        color: white;
+        width: 100%;
+        background-color: #333;
+    }
+
+    #menu a {
+        color: white;
+    }
+
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .menuPrincipal {
+        float: left;
+    }
+
+    #menu li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #menu li a:hover {
+        background-color: #111;
+    }
+
+    .menu-item {
+        padding: 0.7%;
+        cursor: pointer;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu {
+        position: absolute;
+        display: none;
+    }
 }
 
-.menuPrincipal {
-    float: left;
+/**********************************************************/
+/*********************IPHONE*******************************/
+/********************Landscape*****************************/
+/**********************************************************/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    #menu {
+        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+        color: white;
+        width: 100%;
+        background-color: #333;
+    }
+
+    #menu a {
+        color: white;
+    }
+
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .menuPrincipal {
+        float: left;
+    }
+
+    #menu li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #menu li a:hover {
+        background-color: #111;
+    }
+
+    .menu-item {
+        padding: 0.7%;
+        cursor: pointer;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu {
+        position: absolute;
+        display: none;
+    }
 }
 
-#menu li a {
-    display: block;    
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+/**********************************************************/
+/***********************IPAD*******************************/
+/**********************Portrait****************************/
+/**********************************************************/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #menu {
+        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+        color: white;
+        width: 100%;
+        background-color: #333;
+    }
+
+    #menu a {
+        color: white;
+    }
+
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .menuPrincipal {
+        float: left;
+    }
+
+    #menu li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #menu li a:hover {
+        background-color: #111;
+    }
+
+    .menu-item {
+        padding: 0.7%;
+        cursor: pointer;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu {
+        position: absolute;
+        display: none;
+    }
 }
 
-#menu li a:hover {
-    background-color: #111;
-}
+/**********************************************************/
+/***********************IPAD*******************************/
+/**********************Landscape***************************/
+/**********************************************************/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) {
+    #menu {
+        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+        color: white;
+        width: 100%;
+        background-color: #333;
+    }
 
-.menu-item {
-    padding: 0.7%;
-    cursor: pointer;
-}
+    #menu a {
+        color: white;
+    }
 
-.menu-item:hover .submenu {
-    display: block;
-}
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
 
-.submenu {
-    position: absolute;
-    display: none;
+    .menuPrincipal {
+        float: left;
+    }
+
+    #menu li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #menu li a:hover {
+        background-color: #111;
+    }
+
+    .menu-item {
+        padding: 0.7%;
+        cursor: pointer;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu {
+        position: absolute;
+        display: none;
+    }
 }

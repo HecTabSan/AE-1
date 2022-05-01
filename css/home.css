@@ -1,10 +1,102 @@
-#seccion{
-    width: 50%;
-    float: left;
-    margin-bottom: 2%;
+/**********************************************************/
+/*************************DESKTOP**************************/
+/**********************************************************/
+/**********************************************************/
+@media screen and (min-device-width: 1300px){
+    #seccion {
+        width: 50%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    #sidenav {
+        width: 40%;
+        float: right;
+    }
 }
 
-#sidenav{
-    width: 40%;
-    float: right;
+/**********************************************************/
+/*************************DESKTOP**************************/
+/*******************Ancho fijo de resoluciones*************/
+/**********************************************************/
+@media screen and (min-device-width: 900px) and (max-device-width: 1300px){
+    #seccion {
+        width: 50%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    #sidenav {
+        width: 40%;
+        float: right;
+    }
+}
+
+
+/**********************************************************/
+/*********************IPHONE*******************************/
+/********************Portrait******************************/
+/**********************************************************/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    #seccion {
+        width: 50%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    #sidenav {
+        width: 40%;
+        float: right;
+    }
+}
+
+/**********************************************************/
+/*********************IPHONE*******************************/
+/********************Landscape*****************************/
+/**********************************************************/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    #seccion {
+        width: 50%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    #sidenav {
+        width: 40%;
+        float: right;
+    }
+}
+
+/**********************************************************/
+/***********************IPAD*******************************/
+/**********************Portrait****************************/
+/**********************************************************/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #seccion {
+        width: 50%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    #sidenav {
+        width: 40%;
+        float: right;
+    }
+}
+
+/**********************************************************/
+/***********************IPAD*******************************/
+/**********************Landscape***************************/
+/**********************************************************/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) {
+    #seccion {
+        width: 50%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    #sidenav {
+        width: 40%;
+        float: right;
+    }
 }

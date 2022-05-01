@@ -1,12 +1,131 @@
-#pie{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #333;
-    color: white;
-    width:100%;
-    padding-top: 0.33%;
-    padding-bottom: 0.33%;
-    text-align: center;  
+/**********************************************************/
+/*************************DESKTOP**************************/
+/**********************************************************/
+/**********************************************************/
+@media screen 
+  and (min-device-width: 1300px)
+  { 
+    #pie{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+        color: white;
+        width:100%;
+        padding-top: 0.33%;
+        padding-bottom: 0.33%;
+        text-align: center;  
+    }
+}
+
+/**********************************************************/
+/*************************DESKTOP**************************/
+/*******************Ancho fijo de resoluciones*************/
+/**********************************************************/
+@media screen 
+  and (min-device-width: 900px) 
+  and (max-device-width: 1300px) 
+  { 
+    #pie{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+        color: white;
+        width:100%;
+        padding-top: 0.33%;
+        padding-bottom: 0.33%;
+        text-align: center;  
+    }
+}
+
+
+/**********************************************************/
+/*********************IPHONE*******************************/
+/********************Portrait******************************/
+/**********************************************************/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (orientation: portrait) { 
+    #pie{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+        color: white;
+        width:100%;
+        padding-top: 0.33%;
+        padding-bottom: 0.33%;
+        text-align: center;  
+    }
+}
+
+/**********************************************************/
+/*********************IPHONE*******************************/
+/********************Landscape*****************************/
+/**********************************************************/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (orientation: landscape) { 
+    #pie{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+        color: white;
+        width:100%;
+        padding-top: 0.33%;
+        padding-bottom: 0.33%;
+        text-align: center;  
+    }
+}
+
+/**********************************************************/
+/***********************IPAD*******************************/
+/**********************Portrait****************************/
+/**********************************************************/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+    #pie{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+        color: white;
+        width:100%;
+        padding-top: 0.33%;
+        padding-bottom: 0.33%;
+        text-align: center;  
+    }
+}
+
+/**********************************************************/
+/***********************IPAD*******************************/
+/**********************Landscape***************************/
+/**********************************************************/
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) {
+    #pie{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+        color: white;
+        width:100%;
+        padding-top: 0.33%;
+        padding-bottom: 0.33%;
+        text-align: center;  
+    }
 }
