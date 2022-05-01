@@ -2,20 +2,80 @@
 /*************************DESKTOP**************************/
 /**********************************************************/
 /**********************************************************/
-@media screen 
-  and (min-device-width: 1300px) { 
+@media screen and (min-device-width: 1300px) {
+    #montania {
+        display: flex;
+        margin-bottom: 2.5%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
 
+    #agua {
+        display: flex;
+        margin-left: 15%;
+    }
 
+    #escalada img {
+        align-items: center;
+        width: 118%;
+    }
+
+    #senderismo {
+        margin-left: 35%;
+    }
+
+    #senderismo img {
+        width: 55%;
+    }
+
+    #piraguismo img {
+        width: 53%;
+        margin-right: 150%;
+    }
+
+    #rafting img {
+        width: 50%;
+    }
 }
 
 /**********************************************************/
 /*************************DESKTOP**************************/
 /*******************Ancho fijo de resoluciones*************/
 /**********************************************************/
-@media screen 
-  and (min-device-width: 900px) 
-  and (max-device-width: 1300px) { 
-    
+@media screen and (min-device-width: 900px) and (max-device-width: 1300px) {
+    #montania {
+        display: flex;
+        margin-bottom: 2.5%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+
+    #agua {
+        display: flex;
+        margin-left: 15%;
+    }
+
+    #escalada img {
+        align-items: center;
+        width: 118%;
+    }
+
+    #senderismo {
+        margin-left: 35%;
+    }
+
+    #senderismo img {
+        width: 55%;
+    }
+
+    #piraguismo img {
+        width: 53%;
+        margin-right: 150%;
+    }
+
+    #rafting img {
+        width: 50%;
+    }
 }
 
 
@@ -23,42 +83,158 @@
 /*********************IPHONE*******************************/
 /********************Portrait******************************/
 /**********************************************************/
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px)
-  and (orientation: portrait) { 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    #montania {
+        display: flex;
+        margin-bottom: 2.5%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
 
+    #agua {
+        display: flex;
+        margin-left: 15%;
+    }
+
+    #escalada img {
+        align-items: center;
+        width: 118%;
+    }
+
+    #senderismo {
+        margin-left: 35%;
+    }
+
+    #senderismo img {
+        width: 55%;
+    }
+
+    #piraguismo img {
+        width: 53%;
+        margin-right: 150%;
+    }
+
+    #rafting img {
+        width: 50%;
+    }
 }
 
 /**********************************************************/
 /*********************IPHONE*******************************/
 /********************Landscape*****************************/
 /**********************************************************/
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px)
-  and (orientation: landscape) { 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    #montania {
+        display: flex;
+        margin-bottom: 2.5%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
 
+    #agua {
+        display: flex;
+        margin-left: 15%;
+    }
+
+    #escalada img {
+        align-items: center;
+        width: 118%;
+    }
+
+    #senderismo {
+        margin-left: 35%;
+    }
+
+    #senderismo img {
+        width: 55%;
+    }
+
+    #piraguismo img {
+        width: 53%;
+        margin-right: 150%;
+    }
+
+    #rafting img {
+        width: 50%;
+    }
 }
 
 /**********************************************************/
 /***********************IPAD*******************************/
 /**********************Portrait****************************/
 /**********************************************************/
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #montania {
+        display: flex;
+        margin-bottom: 2.5%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
 
+    #agua {
+        display: flex;
+        margin-left: 15%;
+    }
+
+    #escalada img {
+        align-items: center;
+        width: 118%;
+    }
+
+    #senderismo {
+        margin-left: 35%;
+    }
+
+    #senderismo img {
+        width: 55%;
+    }
+
+    #piraguismo img {
+        width: 53%;
+        margin-right: 150%;
+    }
+
+    #rafting img {
+        width: 50%;
+    }
 }
 
 /**********************************************************/
 /***********************IPAD*******************************/
 /**********************Landscape***************************/
 /**********************************************************/
-@media only screen 
-  and (min-device-width: 1366px) 
-  and (max-device-width: 1366px) 
-  and (orientation: landscape) {
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) {
+    #montania {
+        display: flex;
+        margin-bottom: 2.5%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
 
+    #agua {
+        display: flex;
+        margin-left: 15%;
+    }
+
+    #escalada img {
+        align-items: center;
+        width: 118%;
+    }
+
+    #senderismo {
+        margin-left: 35%;
+    }
+
+    #senderismo img {
+        width: 55%;
+    }
+
+    #piraguismo img {
+        width: 53%;
+        margin-right: 150%;
+    }
+
+    #rafting img {
+        width: 50%;
+    }
 }
